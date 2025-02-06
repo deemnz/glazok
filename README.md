@@ -84,10 +84,10 @@ The project requires:
 
 Configure settings:
 
-**Edit the launch_config.json file or use the "Change launch settings" option in the menu. An example configuration:**
+Edit the launch_config.json file or use the "Change launch settings" option in the menu. An example configuration:
 
 {
-    "rtsp_url": "rtsp://admin:password@10.88.39.16:1051/cam/realmonitor?channel=1&subtype=0",
+    "rtsp_url": "rtsp://192.168.100.1/cam/realmonitor?channel=1&subtype=0",
     "object_type": "car",
     "analysis_mode": "directional",
     "line_options": {

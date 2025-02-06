@@ -104,13 +104,13 @@ Configure settings:
 
 **Run the main application:**
 
-```python main.py
+python main.py
 
 Use the menu to launch the analysis or change settings.
 
 **Run the web analytics interface (optional):**
 
-```python webapp.py
+python webapp.py
 
 The web interface is available at http://127.0.0.1:5000.
 

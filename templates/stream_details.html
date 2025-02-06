@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Stream Details</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="container mt-4">
+    <h1>Stream Details: {{ stream_url }}</h1>
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th>Object Type</th>
+            <th>Direction 1</th>
+            <th>Direction 2</th>
+            <th>Total</th>
+            <th>Session Start</th>
+            <th>Session End</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for row in sessions %}
+        <tr>
+            <td>{{ row.object_type }}</td>
+            <td>{{ row.direction1 }}</td>
+            <td>{{ row.direction2 }}</td>
+            <td>{{ row.total }}</td>
+            <td>{{ row.session_start }}</td>
+            <td>{{ row.session_end }}</td>
+        </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</div>
+</body>
+</html>

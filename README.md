@@ -80,7 +80,7 @@ The project requires:
 
 **For example, install using pip:**
 
-```pip install opencv-python av torch ultralytics flask scipy
+pip install opencv-python av torch ultralytics flask scipy
 
 Configure settings:
 

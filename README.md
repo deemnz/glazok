@@ -80,12 +80,15 @@ The project requires:
 
 **For example, install using pip:**
 
+```
 pip install opencv-python av torch ultralytics flask scipy
+```
 
 Configure settings:
 
 Edit the launch_config.json file or use the "Change launch settings" option in the menu. An example configuration:
 
+```
 {
     "rtsp_url": "rtsp://192.168.100.1/cam/realmonitor?channel=1&subtype=0",
     "object_type": "car",
@@ -101,17 +104,18 @@ Edit the launch_config.json file or use the "Change launch settings" option in t
     "min_displacement": 5,
     "record_interval": 60
 }
+```
 
 **Run the main application:**
-
+```
 python main.py
-
+```
 Use the menu to launch the analysis or change settings.
 
 **Run the web analytics interface (optional):**
-
+```
 python webapp.py
-
+```
 The web interface is available at http://127.0.0.1:5000.
 
 **Example Usage**
